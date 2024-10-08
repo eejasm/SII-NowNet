@@ -2,7 +2,7 @@
 A repository for Simple Initiation and Intensification Nowcasting Neural Network (SII-NowNet) code
 
 
-## 1. Generalisable
+## 1. Basic guide
 
 This directory goes provides a step-by-step guide of how to apply SII-NowNet. It provides so example data, along with the SII-NowNet models for 1 and 2 hour lead time. However, this specific example is for a 1 hour lead time nowcast. 
 
