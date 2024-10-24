@@ -4,7 +4,7 @@ A repository for Simple Initiation and Intensification Nowcasting Neural Network
 
 ## 1. Basic guide
 
-This directory goes provides a step-by-step guide of how to apply SII-NowNet. It provides so example data, along with the SII-NowNet models for 1 and 2 hour lead time. However, this specific example is for a 1 hour lead time nowcast. 
+This directory goes provides a step-by-step guide of how to apply SII-NowNet. It provides so example data (for Sumatra and Java), along with the SII-NowNet models for 1 and 2 hour lead time. However, this specific example is for a 1 hour lead time nowcast. 
 
 The guide is given in a jupyter notebook called SII-NowNet_example_guide.ipynb. The SII-NowNet models (for initiation and intensification) are kept within the tools directory. 
 
@@ -15,4 +15,6 @@ target_data_generator.py is a script that produces the observations for verifica
 utils.py contains fucntions for normalising the data before it goes into SII-NowNet.
 
 
+## 2. SII-NowNet architecture
 
+This is a jupyter notebook containing the basic form of the CNN underlying SII-NowNet. Current takes a 63x63x3 as input but this can be modified and re-trained on data wth different dimesnions (to account for different domains) 
