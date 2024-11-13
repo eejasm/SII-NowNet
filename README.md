@@ -17,4 +17,4 @@ utils.py contains fucntions for normalising the data before it goes into SII-Now
 
 ## 2. SII-NowNet architecture
 
-This is a jupyter notebook containing the basic form of the CNN underlying SII-NowNet. Current takes a 63x63x3 as input but this can be modified and re-trained on data wth different dimesnions (to account for different domains) 
+This is a jupyter notebook containing the basic form of the CNN underlying SII-NowNet. Currentlt it takes a 63x63x3 matrix as input, but this can be modified and re-trained on data wth different dimensions (to account for different domains) 
