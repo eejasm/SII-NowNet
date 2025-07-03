@@ -18,3 +18,12 @@ utils.py contains fucntions for normalising the data before it goes into SII-Now
 ## 2. SII-NowNet architecture
 
 This is a jupyter notebook containing the basic form of the CNN underlying SII-NowNet. Currentlt it takes a 63x63x3 matrix as input, but this can be modified and re-trained on data wth different dimensions (to account for different domains) 
+
+## 3. SII-NowNet_2
+
+This directory contains the updated version of SII-NowNet, with a basic guide on how to use it. This guide is focussed on South Africa. 
+
+Before running this guide you must add a directory labelled the SII-NowNet_2/models. This directory should be contain the models for SII-NowNet_2/models/intensifiction and SII-NowNet_2/models/initiation.
+
+Brightness Temperature data also needs to be added to the SII-NowNet_2/test_data directory. A description of this data is within the guide. The shape each BT numpy field must be (416, 416).
+
