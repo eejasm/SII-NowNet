@@ -17,7 +17,7 @@ predictor_data_generator.py is a script that extracts the predictor data for eac
 target_data_generator.py is a script that produces the observations for verification (only possible if looking at historical cases)
 utils.py contains fucntions for normalising the data before it goes into SII-NowNet.
 
-## 3. SII-NowNet
+## 3. SII-NowNet_2 architecture
 
 This jupyter notebook contains the architecture for SII-NowNet_2. SII-NowNet_2 is an improved version, which produces greater skill over Sumatra (especially for initiation nowcasts). SII-NowNet_2 is based on a U-Net architecture with 4 encoder/decoder stages and an extra convolutional layer for final processing into the 26x26 nowcast grid. SII-NowNet_2 takes a 416x416x2 dimension input, which represents the BT fields (416x416 dimension) at T-0 and T-1 hours (2 dimension). 
 
