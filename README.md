@@ -21,7 +21,7 @@ This is a jupyter notebook containing the basic form of the CNN underlying SII-N
 
 ## 3. SII-NowNet_2
 
-This directory contains the updated version of SII-NowNet, with a basic guide on how to use it. The three .ipynb guides are focussed on South Africa, Southern Africa and Indonesia. The Southern Africa and Indonesia domains use a tiling approach, which stitches together multiple SII-NowNet nowcasts into one whole domain (SII-NowNet is restricted to a 416x416 input), using smoothing at the tile overlaps. The South Africa domain uses just one SII-NowNet nowcast.
+This directory contains the updated version of SII-NowNet, with a basic guide on how to use it. The three .ipynb guides are focussed on South Africa, Southern Africa and Indonesia. The Southern Africa and Indonesia domains use a tiling approach, which stitches together multiple SII-NowNet nowcasts into one whole domain (SII-NowNet is restricted to a 416x416 input), using smoothing at the tile overlaps. The 'tiling' approach used to form the larger SII-NowNet images differs between the two regions because the BT data is in a different projections. The South Africa domain uses just one SII-NowNet nowcast and therefore does not require any 'tiling' approach.
 
 Before running these guides you must add a directory labelled './SII-NowNet_2_models/'. This directory should contain 2xinitiation models (1 and 2 hour lead times) and 3xintensification models (1, 2 and 3 hour lead times). These models called from a their own directories, which should be labelled as '1_initiation', '2_initiation', '1_intensification', '2_intensification', '3_intensification'. These directories can be found at https://drive.google.com/drive/folders/1Xucu1GsgaYnkYuVPbZmIhyIdAMXsY3wy. 
 
