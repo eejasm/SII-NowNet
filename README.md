@@ -31,3 +31,5 @@ Your own Brightness Temperature data also needs to be added to this directory. A
 
 SA_SIINowNet.py also been added to the directory. This is the .py script that is being run by the South African Weather Service (SAWS) to generate SII-NowNet nowcasts for the Southern Africa domain.
 
+## 4. Target data generation
+The code for the initiation/intensification methodologies (the target data) is provided in the generate_target_data.py scripts. These scripts require 2 BT fields, separated an hour apart, with 416x416 pixel dimension. From these images the initiation/intensification events are identified and scaled down to a 26x26 grid - this is the final target domain for SII-NowNet. 
