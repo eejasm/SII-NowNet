@@ -1,6 +1,8 @@
 # SII-NowNet
 A repository for Simple Initiation and Intensification Nowcasting Neural Network (SII-NowNet) code
 
+For more information, please contact Joey Smith (eejasm@leeds.ac.uk) or Cathryn Birch (c.e.birch@leeds.ac.uk)
+
 ## 1. SII-NowNet_1 architecture
 
 This is a jupyter notebook containing the basic form of the CNN underlying the first version of SII-NowNet. Currently it takes a 63x63x3 matrix as input, but this can be modified and re-trained on data wth different dimensions (to account for different domains) 
